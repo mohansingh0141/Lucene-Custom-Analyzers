@@ -25,7 +25,7 @@ import org.apache.lucene.util.Version;
 
 import com.luc.filters.SSNFilter;
 
-public class SSNAnalyzer extends Analyzer {
+public final class SSNAnalyzer extends Analyzer {
 	
 	@Override
 	public TokenStream tokenStream(String fieldName, Reader reader) {	

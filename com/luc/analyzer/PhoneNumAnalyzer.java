@@ -25,7 +25,7 @@ import org.apache.lucene.util.Version;
 
 import com.luc.filters.PhoneNumFilter;
 
-public class PhoneNumAnalyzer extends Analyzer {
+public final class PhoneNumAnalyzer extends Analyzer {
 
 	@Override
 	public TokenStream tokenStream(String fieldName, Reader reader) {
