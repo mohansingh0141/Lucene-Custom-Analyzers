@@ -24,7 +24,7 @@ import org.apache.lucene.analysis.FilteringTokenFilter;
 import org.apache.lucene.analysis.TokenStream;
 import org.apache.lucene.analysis.tokenattributes.CharTermAttribute;
 
-public class SSNFilter extends FilteringTokenFilter {
+public final class SSNFilter extends FilteringTokenFilter {
 	
 	private final CharTermAttribute termAttribute= addAttribute(CharTermAttribute.class);
 	
