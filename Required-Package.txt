@@ -1,0 +1,1 @@
+Lucene Core Library is Required.
